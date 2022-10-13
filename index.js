@@ -31,7 +31,7 @@ console.log('File has benn written!'); */
 console.log('Will read file!'); */
 
 ////////////////////////////////////////
-////// SERVER
+////// SERVER & BASIC API
 const data = fs.readFileSync(`${__dirname}/dev-data/data.json`, 'utf-8');
 const dataObj = JSON.parse(data);
 
